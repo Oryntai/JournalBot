@@ -1,0 +1,14 @@
+[project]
+name = "telegram-chat-journal"
+version = "0.2.0"
+description = "Self-hosted Telegram chat journal for one owner"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "aiogram==3.34.0",
+    "cryptography==50.0.2",
+    "python-dotenv==1.2.4",
+]
+
+[tool.uv]
+package = false
